@@ -19,25 +19,32 @@
             height: 100vh;
         }
 
-        h3, i {
-            color: #fff;
-            text-align: center;
-        }
-
         img {
             max-width: 100%;
             height: auto;
             border-radius: 10px; /* Optional: Add rounded corners to the image */
+        }
+
+        h3, i {
+            color: #fff;
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        @media only screen and (max-width: 600px) {
+            /* Adjust styles for smaller screens (e.g., mobile devices) */
+            h3, i {
+                font-size: 18px;
+            }
         }
     </style>
 
 </head>
 
 <body>
-     <h3>Hi, I am Dhruv<3 </h3><br>
-     <br><img src='giphy.gif' alt="Gift Image">
-    
-     <i>Here's a gift for you</i>
+    <h3>Hi, I am @dhruv here</h3>
+    <img src="giphy.gif" alt="Gift Image">
+    <i>Here's a gift for you</i>
 </body>
 
 </html>
